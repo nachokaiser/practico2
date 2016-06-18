@@ -1,0 +1,237 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  }
+
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: #0D0B00;
+  background-image: url(imagenes/fondo1.jpg);
+}
+
+header{
+  position: absolute;
+  top: 0;
+  padding: 2em .2em 1em;
+  /*background-color: #020011;*/
+  background-color: red;
+}
+
+ header h1{
+  position: relative;
+  text-align: right;
+  font-family: 'Press Start 2P', sans-serif;
+  font-size: 1.2em;
+  color: #fff;
+  right: 25px;
+ }
+
+ #menu{
+   position: relative;
+   top: 25px;
+   left: 10px;
+   width: 30px;
+   height: 30px;
+ }
+
+nav{
+  position: relative;
+  float: right;
+  bottom: -15px;
+  margin-right: 70px;
+}
+
+nav a{
+  text-decoration: none;
+  color: #fff;
+}
+
+nav a:hover{
+  color:#c12800;
+}
+
+nav ul li{
+  display: inline;
+  margin-left: 15px;
+  font-family: 'Press Start 2P', sans-serif;
+}
+
+h2{
+  position: relative;
+  top: 150px;
+  text-align: center;
+  font-family: 'Press Start 2P', sans-serif;
+  color: #fff;
+  -moz-animation: blink 1.5s linear infinite;
+  -moz-animation: blink 1.5s linear infinite;
+  -webkit-animation: blink 1.5s linear infinite;
+}
+
+@-moz-keyframes blink{
+  0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+
+@-webkit-keyframes blink{
+  0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+
+@keyframes blink{
+  0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+
+#personajes{
+  position: relative;
+  margin: auto;
+  top: 200px;
+  width:75%;
+}
+
+img{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.avatar:hover{
+  opacity: 0.8;
+}
+
+#contenedor{
+  position: relative;
+  top:150px;
+  margin: auto;
+  background-color: #020011;
+  width:40%;
+  padding: 15px 15px 55px 15px;
+
+}
+
+article{
+  font-family: 'Press Start 2P', sans-serif;
+  color: #fff;
+  margin: 10px;
+  width: 50%;
+}
+
+.img-bio{
+  float: right;
+  position: relative;
+}
+
+#galeria{
+  position: relative;
+	width:1400px;
+	margin:100px auto;
+  top: 150px;
+}
+#galeria li{
+	display:inline;
+	list-style:none;
+	float: left;
+	margin:15px;
+}
+#galeria a img{
+border:5px solid #aaa;
+}
+#galeria a:hover img{
+	border:5px solid #FFFFFF
+}
+
+#formulario{
+  position: relative;
+  top:200px;
+  margin: auto;
+  margin-bottom: 100px;
+  padding: 20px;
+  background-color: #ba2500;
+  width: 300px;
+}
+
+.fila{
+  margin-bottom: 15px;
+}
+
+
+.form-input {
+	width:70%;
+  margin-left: 10px;
+	background-color: transparent;
+	border: none;
+  border-bottom: 2px solid #fff;
+
+}
+
+#radioID{
+  list-style-type: none;
+  margin-left: -40px;
+}
+
+ul label{
+  float: right;
+}
+
+.fila p, label{
+  font-family: 'Press Start 2P';
+  font-size: 0.7em;
+  color: #fff;
+}
+
+textarea{
+  resize:none;
+  width: 98%;
+  height: 100px;
+  display: block;
+  margin-top: 8px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  font-size: 1em;
+  color: #fff;
+}
+
+ #IDnombre, #IDmail{
+font-size: 1em;
+color: #fff;
+}
+
+div #IDenviar{
+  display: block;
+  width: 30%;
+  margin:auto;
+}
+
+#IDenviar{
+  width:25%;
+  padding: 5px;
+  background-color: #fff;
+  color:#ba2500;
+  font-family: 'Press Start 2P';
+  font-size: 0.6em;
+  border: none;
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #020011;
+}
+
+footer p{
+  position: relative;
+  top:5px;
+  text-align: center;
+  font-family: 'Press Start 2P';
+  color: #fff;
+  font-size: 0.7em;
+}

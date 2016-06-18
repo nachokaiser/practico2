@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href='https://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="estilo.css" media="screen" charset="utf-8">
+    <link rel="shortcut icon" href="imagenes/favicon.png" type="image/x-icon" />
+    <meta charset="utf-8">
+    <title>Contacto</title>
+  </head>
+
+  <body>
+    <header>
+      <a href="index.html"><img id="logo" src="imagenes/hearts.png" alt="Logo"/></a>
+      <nav>
+        <ul>
+          <a href="index.html"><li>INICIO</li></a>
+        </ul>
+      </nav>
+    </header>
+
+    <h2> Hablá con nosotros </h2>
+
+    <div id="formulario">
+      <form action="enviar.php" method="post">
+        <div class="fila">
+          <p>Mensaje para:</p>
+          <ul id="radioID">
+              <li><input type="radio" id="sol" name="integrante" value="s">
+              <label for="sol">Sol</label></li>
+
+              <li><input type="radio" id="ignacio" name="integrante" value="i">
+              <label for="ignacio">Ignacio</label></li>
+
+              <li><input type="radio" id="agustina" name="integrante" value="a">
+              <label for="agustina">Agustina</label></li>
+
+              <li><input type="radio" id="nicolas" name="integrante" value="n">
+              <label for="nicolas">Nicolás</label></li>
+
+              <li><input type="radio" id="todos" name="integrante" value="t">
+              <label for="todos">Todos</label></li>
+          </ul>
+        </div>
+        <div class="fila">
+          <label for="IDnombre">Nombre</label>
+          <input class="form-input" type="text" name="nombre" id="IDnombre" value="">
+        </div>
+        <div class="fila">
+          <label for="IDmail">E-mail</label>
+          <input class="form-input" type="email" name="email" id="IDmail">
+        </div>
+        <div class="fila">
+          <label for="IDmensaje">Mensaje</label>
+          <textarea name="mensaje" id="IDmensaje" placeholder="Escribinos tu mensaje"></textarea>
+        </div>
+        <div>
+        <input id="IDenviar" type="submit" name="enviar" value="Enviar">
+        </div>
+      </form>
+    </div>
+    <footer>
+      <p>Escuela Da Vinci - 2016</p>
+    </footer>
+
+  </body>
+</html>
