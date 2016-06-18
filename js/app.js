@@ -1,10 +1,9 @@
-$(document).ready(function(){
-    $('.article').click(function(){
-        $('.article').removeClass('actual');
-        $('.descripcion').hide();
-
-        $(this).addClass('actual');
-        $(this).children('.descripcion').show();
-        alert("HOLA");
+var main = function () {
+    $('.descripcion').addClass('escondido');
+    
+    $('article').click(function () {
+        $(this).children('.descripcion').toggleClass('escondido');
     });
-});
+};
+
+$(document).ready(main);

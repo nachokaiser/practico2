@@ -18,6 +18,10 @@ header{
   background-color: red;
 }
 
+.escondido{
+    display: none;
+}
+
  header h1{
   position: relative;
   text-align: right;
@@ -244,5 +248,4 @@ section {
     margin: 1em .5em;
     padding-bottom: .5em;
     background-color: black;
-    display: none;
 }
