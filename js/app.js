@@ -20,7 +20,8 @@ var main = function () {
                 scrollTop: target.offset().top
             }, 1000);
         }
-
+        
+        $('nav').addClass('nav-escondido');
     });
 };
 
