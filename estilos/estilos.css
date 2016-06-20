@@ -7,8 +7,8 @@
 body{
   margin: 0px;
   padding: 0px;
-  background-color: #0D0B00;
-  background-image: url(../imagenes/fondo1.jpg);
+  background-color: dimgrey;
+  
 }
 
 header{
@@ -126,7 +126,7 @@ article{
   font-family: 'Press Start 2P', sans-serif;
   color: #fff;
   margin-bottom: 1em;
-  background-color: black;
+  background-color: ;
   max-width: 25em;
   cursor: pointer;
 }
@@ -260,3 +260,25 @@ a:visited {
     width: auto;
     height: auto;
 }
+
+/*BP Tablet*/
+@media only screen and (min-device-width : 480px) and (max-device-width : 767px){
+    
+article{
+  font-family: 'Press Start 2P', sans-serif;
+  color: #fff;
+  margin-bottom: 1em;
+  background-color: ;
+  max-width: 25em;
+  cursor: pointer;
+}
+
+#formulario{
+  margin-top: 2em;
+  padding: 1.5em;
+  background-color: #ba2500;
+  width: 100%;
+}
+    
+}
+@media only screen and (min-device-width : 768px) 
