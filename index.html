@@ -9,22 +9,78 @@
   </head>
   <body>
     <header>
-      <a href="index.html"><img id="menu" src="imagenes/burger.png" alt="Abrir menu"/></a>
+        <div><img id="menu-btn" src="imagenes/burger.png" alt="Abrir menu"></div>
       <h1>TEAM BARIFREAKS</h1>
+      <nav>
+          <ul class="menu">
+              <li><a class="btn-ancla" href="#tab-personajes">PERSONAJES</a></li>
+              <li><a class="btn-ancla" href="#nosotros">NOSOTROS</a></li>
+              <li><a class="btn-ancla" href="#contacto">CONTACTO</a></li>
+          </ul>
+      </nav>
     </header>
-    <h2>Elegí un personaje</h2>
+    <section class="cuerpo" id="tab-personajes">
+        <h2>Elegí un personaje</h2>
 
-    <section id="personajes">
-          <article href="bio-sol.html" class="avatar">
-              <img src="imagenes/sol.jpg" alt="Player 1"/>
-              <div class="descripcion">
-                  Hola! Mi nombre es Sol Candela Torrillate, tengo 20 años y curso Diseño Multimedial en la Escuela Da Vinci.
-          Amo dibujar, tocar el violoncello y jugar al voley con amigas.
-              </div>
-          </article>
-          <article href="bio-nacho.html" class="avatar"><img src="imagenes/nacho.jpg" alt="Player 2"/></article>
-          <article href="bio-agus.html" class="avatar"><img src="imagenes/agus.jpg" alt="Player 3"/></article>
-          <article href="bio-nico.html" class="avatar"><img src="imagenes/nico.jpg" alt="Player 4"/></article>
+        <section id="personajes">
+              <article href="bio-sol.html" class="avatar">
+                  <img src="imagenes/sol.jpg" alt="Player 1"/>
+                  <div class="descripcion">
+                      Hola! Mi nombre es Sol Candela Torrillate, tengo 20 años y curso Diseño Multimedial en la Escuela Da Vinci. Amo dibujar, tocar el violoncello y jugar al voley con amigas.
+                  </div>
+              </article>
+              <article href="bio-nacho.html" class="avatar">
+                  <img src="imagenes/nacho.jpg" alt="Player 2"/>
+                  <div class="descripcion">
+                    <p>Me llamo Ignacio Kaiser y tengo 21 años. Vivo en La Plata, donde nací. Soy hincha de Racing y cinéfilo. Me encanta la música y amo tocar en conjunto, mas si es con amigos.</p>
+                    <p>Estudio Diseño Multimedia desde 2013 y éste es mi segundo cuatrimestre en Da Vinci. Aunque todas las áreas de la carrera me apasionan, las que mas me gustan son el diseño de personajes y fondos, el desarrollo web y de aplicaciones, y la animación (motion graphics).</p>
+                  </div>
+              </article>
+              <article href="bio-agus.html" class="avatar">
+                  <img src="imagenes/agus.jpg" alt="Player 3"/>
+                  <div class="descripcion">
+                    <p>Hola! Mi nombre es Agustina Cochet. Tengo 20 años y vivo en Ramos Mejía con mi perro Jack.
+              Es mi segundo cuatrimestre cursando Diseño Multimedial en Da Vinci; me gusta mucho, sobre todo la edición, el diseño y la publicidad. Pero lo que más me apasiona es la fotografía (analógica, digital y el revelado manual). Me encanta viajar, jugar a la play, andar en longboard y pasar tiempo con gente que aprecio.</p>
+                  </div>
+              </article>
+              <article href="bio-nico.html" class="avatar">
+                  <img src="imagenes/nico.jpg" alt="Player 4"/>
+                  <div class="descripcion">
+                      <p>Mi nombre es Vicente Nicolás Pinelli, tengo 23 años y soy de la ciudad de Los Polvorines, Buenos Aires. Soy hincha de independiente.</p>
+                      <p> Actualmente estoy cursando el segundo cuatrimestre de la carrera de diseño multimedial en la escuela Da Vinci. Me apasiona el diseño en general ya sea artesanal o digital. Desde muy chico dibujo y soy muy fanático de los autos. Del área de diseño multimedial me gusta  ilustrar  personajes y cosas de la vida cotidiana.</p>
+                  </div>
+              </article>
+        </section>
+    </section>
+      
+    <section id="nosotros">
+        <h2>Nosotros</h2>
+        <div class="contenido">
+            <p>ACA VA ALGO</p>
+        </div>
+    </section>  
+      
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <div id=formulario>
+        <form action="enviar.php" method="post">
+          <div class="fila">
+            <label for="IDnombre">Nombre</label>
+            <input class="form-input" type="text" name="nombre" id="IDnombre" value="">
+          </div>
+          <div class="fila">
+            <label for="IDmail">E-mail</label>
+            <input class="form-input" type="email" name="email" id="IDmail">
+          </div>
+          <div class="fila">
+            <label for="IDmensaje">Mensaje</label>
+            <textarea name="mensaje" id="IDmensaje" placeholder="Escribinos tu mensaje"></textarea>
+          </div>
+          <div>
+          <input id="IDenviar" type="submit" name="enviar" value="Enviar">
+          </div>
+        </form>
+        </div>
     </section>
 
     <!--<audio src="leanon-8bits.mp3" autoplay="autoplay" preload="auto"></audio>-->
