@@ -4,6 +4,7 @@ var main = function () {
     
     $('article').click(function () {
         $(this).children('.descripcion').toggleClass('escondido');
+        $(this).children('img').toggleClass('escondido');
     });
     
     $('#menu-btn').click(function () {
